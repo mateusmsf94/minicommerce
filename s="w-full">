@@ -1,0 +1,263 @@
+[1mdiff --git a/.idea/minicommerce.iml b/.idea/minicommerce.iml[m
+[1mindex eaa4e00..9a1df6f 100644[m
+[1m--- a/.idea/minicommerce.iml[m
+[1m+++ b/.idea/minicommerce.iml[m
+[36m@@ -26,81 +26,81 @@[m
+       <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />[m
+       <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />[m
+     </content>[m
+[31m-    <orderEntry type="inheritedJdk" />[m
+[32m+[m[32m    <orderEntry type="jdk" jdkName="asdf: 3.1.2" jdkType="RUBY_SDK" />[m
+     <orderEntry type="sourceFolder" forTests="false" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="actioncable (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="actionmailbox (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="actionpack (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="actiontext (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="actionview (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="activejob (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="activemodel (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="activestorage (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.8.4, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.16.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.4.13, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="capybara (v3.39.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.2.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="date (v3.3.3, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="debug (v1.8.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="erubi (v1.12.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="globalid (v1.1.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="importmap-rails (v1.2.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="io-console (v0.6.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="irb (v1.7.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.11.5, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="loofah (v2.21.3, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="mail (v2.8.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="matrix (v0.4.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="method_source (v1.0.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.18.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.7.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="net-imap (v0.3.6, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="net-pop (v0.1.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="net-protocol (v0.2.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="net-smtp (v0.3.3, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.9, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.15.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v5.0.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="puma (v5.6.6, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="racc (v1.7.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.7, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="rack-test (v2.1.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="rails (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.6.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="railties (v7.0.5.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.8.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="reline (v0.3.5, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.5, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v4.10.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.2.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.6.3, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="stimulus-rails (v1.2.1, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="tailwindcss-rails (v2.0.29, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="thor (v1.2.2, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="timeout (v0.4.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="turbo-rails (v1.4.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.6, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="web-console (v4.2.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="webdrivers (v5.2.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="websocket (v1.2.9, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.5, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="xpath (v3.2.0, ruby-3.1.2-p20) [gem]" level="application" />[m
+[31m-    <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.6.8, ruby-3.1.2-p20) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="actioncable (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="actionmailbox (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="actionpack (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="actiontext (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="actionview (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="activejob (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="activemodel (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="activerecord (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="activestorage (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="activesupport (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.8.4, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.16.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.4.13, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="capybara (v3.39.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.2.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="date (v3.3.3, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="debug (v1.8.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="erubi (v1.12.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="globalid (v1.1.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="importmap-rails (v1.2.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="io-console (v0.6.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="irb (v1.7.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.11.5, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="loofah (v2.21.3, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="mail (v2.8.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="matrix (v0.4.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="method_source (v1.0.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.18.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.7.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="net-imap (v0.3.6, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="net-pop (v0.1.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="net-protocol (v0.2.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="net-smtp (v0.3.3, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.9, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.15.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v5.0.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="puma (v5.6.6, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="racc (v1.7.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.7, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="rack-test (v2.1.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="rails (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.6.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="railties (v7.0.5.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.8.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="reline (v0.3.5, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.5, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v4.10.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.2.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.6.3, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="stimulus-rails (v1.2.1, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="tailwindcss-rails (v2.0.29, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="thor (v1.2.2, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="timeout (v0.4.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="turbo-rails (v1.4.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.6, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="web-console (v4.2.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="webdrivers (v5.2.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="websocket (v1.2.9, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.5, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="xpath (v3.2.0, asdf: 3.1.2) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.6.8, asdf: 3.1.2) [gem]" level="application" />[m
+   </component>[m
+   <component name="RModuleSettingsStorage">[m
+     <LOAD_PATH number="0" />[m
+[1mdiff --git a/app/controllers/line_items_controller.rb b/app/controllers/line_items_controller.rb[m
+[1mindex 74c5111..bda0d2b 100644[m
+[1m--- a/app/controllers/line_items_controller.rb[m
+[1m+++ b/app/controllers/line_items_controller.rb[m
+[36m@@ -1,4 +1,6 @@[m
+ class LineItemsController < ApplicationController[m
+[32m+[m[32m  include CurrentCart[m
+[32m+[m[32m  before_action :set_cart, only: %i[ create ][m
+   before_action :set_line_item, only: %i[ show edit update destroy ][m
+ [m
+   # GET /line_items or /line_items.json[m
+[36m@@ -21,11 +23,12 @@[m [mclass LineItemsController < ApplicationController[m
+ [m
+   # POST /line_items or /line_items.json[m
+   def create[m
+[31m-    @line_item = LineItem.new(line_item_params)[m
+[32m+[m[32m    product = Product.find(params[:product_id])[m
+[32m+[m[32m    @line_item = @cart.line_items.build(product: product)[m
+ [m
+     respond_to do |format|[m
+       if @line_item.save[m
+[31m-        format.html { redirect_to line_item_url(@line_item), notice: "Line item was successfully created." }[m
+[32m+[m[32m        format.html { redirect_to cart_url(@line_item.cart), notice: "Line item was successfully created." }[m
+         format.json { render :show, status: :created, location: @line_item }[m
+       else[m
+         format.html { render :new, status: :unprocessable_entity }[m
+[1mdiff --git a/app/views/carts/_cart.html.erb b/app/views/carts/_cart.html.erb[m
+[1mindex aaa0e2b..753fa79 100644[m
+[1m--- a/app/views/carts/_cart.html.erb[m
+[1m+++ b/app/views/carts/_cart.html.erb[m
+[36m@@ -1,7 +1,9 @@[m
+ <div id="<%= dom_id cart %>">[m
+[31m-  <% if action_name != "show" %>[m
+[31m-    <%= link_to "Show this cart", cart, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>[m
+[31m-    <%= link_to 'Edit this cart', edit_cart_path(cart), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>[m
+[31m-    <hr class="mt-6">[m
+[31m-  <% end %>[m
+[32m+[m[32m  <h2 class="font-bold text-lg mb-3">Your Pragmatic Cart</h2>[m
+[32m+[m
+[32m+[m[32m  <ul class="list-disc list-inside">[m
+[32m+[m[32m    <% cart.line_items.each do |item| %>[m
+[32m+[m[32m      <li><%= item.product.title %></li>[m
+[32m+[m[32m    <% end %>[m
+[32m+[m[32m  </ul>[m
+ </div>[m
+[1mdiff --git a/app/views/store/index.html.erb b/app/views/store/index.html.erb[m
+[1mindex 8bfa152..e8bbe2d 100644[m
+[1m--- a/app/views/store/index.html.erb[m
+[1m+++ b/app/views/store/index.html.erb[m
+[36m@@ -12,22 +12,27 @@[m
+   <ul>[m
+     <% cache @products do %>[m
+       <% @products.each do |product| %>[m
+[31m-        <% cache @products do %>[m
+[31m-          <li class="flex mb-6">[m
+[32m+[m[32m        <% cache product do %>[m
+[32m+[m[32m          <li class='flex mb-6'>[m
+             <%= image_tag(product.image_url, class: 'object-contain w-40 h-48 shadow mr-6') %>[m
+ [m
+             <div>[m
+               <h2 class="font-bold text-lg mb-3"><%= product.title %></h2>[m
+ [m
+[31m-              <p><%= sanitize(product.title) %></p>[m
+[31m-              <p><%= sanitize(product.description) %></p>[m
+[32m+[m[32m              <p>[m
+[32m+[m[32m                <%= sanitize(product.description) %>[m
+[32m+[m[32m              </p>[m
+ [m
+               <div class="mt-3">[m
+[31m-                <%= number_to_currency(product.price, unit: 'R$') %>[m
+[32m+[m[32m                <%= number_to_currency(product.price) %>[m
+[32m+[m[32m                <%= button_to 'Add to Cart',[m
+[32m+[m[32m                              line_items_path(product_id: product),[m
+[32m+[m[32m                              form_class: 'inline',[m
+[32m+[m[32m                              class: 'ml-4 rounded-lg py-1 px-2 text-white bg-green-600' %>[m
+               </div>[m
+             </div>[m
+           </li>[m
+[31m-        <% end %> %>[m
+[32m+[m[32m        <% end %>[m
+       <% end %>[m
+     <% end %>[m
+   </ul>[m
+[1mdiff --git a/test/controllers/line_items_controller_test.rb b/test/controllers/line_items_controller_test.rb[m
+[1mindex 66e8e58..a21093d 100644[m
+[1m--- a/test/controllers/line_items_controller_test.rb[m
+[1m+++ b/test/controllers/line_items_controller_test.rb[m
+[36m@@ -17,10 +17,13 @@[m [mclass LineItemsControllerTest < ActionDispatch::IntegrationTest[m
+ [m
+   test "should create line_item" do[m
+     assert_difference("LineItem.count") do[m
+[31m-      post line_items_url, params: { line_item: { cart_id: @line_item.cart_id, product_id: @line_item.product_id } }[m
+[32m+[m[32m      post line_items_url, params: { product_id: products(:ruby).id }[m
+     end[m
+ [m
+[31m-    assert_redirected_to line_item_url(LineItem.last)[m
+[32m+[m[32m    follow_redirect![m
+[32m+[m
+[32m+[m[32m    assert_select 'h2', 'Your Pragmatic Cart'[m
+[32m+[m[32m    assert_select 'li', 'Programming Ruby 1.9'[m
+   end[m
+ [m
+   test "should show line_item" do[m
